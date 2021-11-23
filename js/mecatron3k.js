@@ -120,6 +120,7 @@ class Vista{
 class Modelo{
   constructor(){
       this.palabras = ['En', 'un', 'lugar', 'de', 'La', 'Mancha']
+      this.puntuacion = 0
   }
   /**
     Devuelve una nueva palabra.
@@ -128,6 +129,9 @@ class Modelo{
   **/
   crearPalabra(){
     return this.palabras[Math.floor(Math.random() * this.palabras.length)]
+  }
+  sumarPunto(){
+    this.puntuacion++
   }
 }
 
