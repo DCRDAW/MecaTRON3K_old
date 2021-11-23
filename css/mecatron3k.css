@@ -26,8 +26,16 @@
   font-weight: bold;
 }
 #puntuacion{
-  position: absolute;
-  left: 80%;
+  color: white;
+  position: relative;
+  left: 60%;
+  top:-40px;
+}
+#nivel{
+  color: white;
+  position: relative;
+  left: 70%;
+  top:-70px;
 }
 .palabra span{
   color: blue;
